@@ -52,3 +52,7 @@ group :development do
   gem 'rubocop-rails', require: false
 end
 
+group :production do
+  gem 'pg' # 本番環境のみ
+end
+
